@@ -54,6 +54,7 @@ render_one "$ROOT/reports/claude-mythos-executive-summary.bilingual.md" "claude-
 render_one "$ROOT/reports/claude-mythos-preview-analysis.zh-CN.md" "claude-mythos-preview-analysis.zh-CN" "Claude Mythos Preview Deep Report (Chinese)"
 render_one "$ROOT/reports/claude-mythos-preview-analysis.en.md" "claude-mythos-preview-analysis.en" "Claude Mythos Preview Deep Report (English)"
 render_one "$ROOT/reports/claude-mythos-whitepaper.zh-CN.md" "claude-mythos-whitepaper.zh-CN" "Claude Mythos Preview Whitepaper (Chinese)"
+render_one "$ROOT/reports/claude-mythos-whitepaper.en.md" "claude-mythos-whitepaper.en" "Claude Mythos Preview Whitepaper (English)"
 render_one "$ROOT/reports/claude-mythos-social-kit.zh-CN.md" "claude-mythos-social-kit.zh-CN" "Claude Mythos Social Distribution Kit"
 
 echo "Export complete:"

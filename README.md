@@ -1,6 +1,6 @@
 # Claude Mythos Preview Analysis Pack
 
-A research-oriented repository for studying Anthropic's `Claude Mythos Preview System Card` dated `2026-04-07`. The project includes bilingual analysis reports, a Chinese whitepaper-style edition, short-form distribution material, extracted figure pages, and rendered HTML/PDF deliverables.
+A research-oriented repository for studying Anthropic's `Claude Mythos Preview System Card` dated `2026-04-07`. The project includes bilingual analysis reports, whitepaper-style editions in Chinese and English, extracted figure pages, and rendered HTML/PDF deliverables.
 
 ## Quick Access
 
@@ -10,7 +10,7 @@ A research-oriented repository for studying Anthropic's `Claude Mythos Preview S
 | Deep report | [zh-CN](./reports/claude-mythos-preview-analysis.zh-CN.md) | [html](./dist/claude-mythos-preview-analysis.zh-CN.html) | [pdf](./dist/claude-mythos-preview-analysis.zh-CN.pdf) | Full explanatory reading |
 | Deep report | [English](./reports/claude-mythos-preview-analysis.en.md) | [html](./dist/claude-mythos-preview-analysis.en.html) | [pdf](./dist/claude-mythos-preview-analysis.en.pdf) | External sharing / English readership |
 | Whitepaper edition | [zh-CN](./reports/claude-mythos-whitepaper.zh-CN.md) | [html](./dist/claude-mythos-whitepaper.zh-CN.html) | [pdf](./dist/claude-mythos-whitepaper.zh-CN.pdf) | Research, review, and policy discussion |
-| Social distribution kit | [zh-CN](./reports/claude-mythos-social-kit.zh-CN.md) | [html](./dist/claude-mythos-social-kit.zh-CN.html) | [pdf](./dist/claude-mythos-social-kit.zh-CN.pdf) | WeChat, X, public-account posting |
+| Whitepaper edition | [English](./reports/claude-mythos-whitepaper.en.md) | [html](./dist/claude-mythos-whitepaper.en.html) | [pdf](./dist/claude-mythos-whitepaper.en.pdf) | Research, review, and policy discussion |
 
 ## Repository Scope
 
@@ -18,17 +18,16 @@ A research-oriented repository for studying Anthropic's `Claude Mythos Preview S
 - A clear split between `evidence`, `interpretation`, and `speculation`
 - Plain-language explanations for frontier-AI safety terminology
 - Many examples and analogies for difficult concepts
-- A whitepaper-style Chinese synthesis for research and internal briefings
-- Ready-to-post social summaries for different distribution channels
+- Whitepaper-style syntheses for research and internal briefings
 - Rendered HTML/PDF editions in [`dist`](./dist/)
 
 ## Suggested Reading Path
 
 1. Start with the [executive summary](./reports/claude-mythos-executive-summary.bilingual.md).
 2. Continue to the [Chinese deep report](./reports/claude-mythos-preview-analysis.zh-CN.md).
-3. Use the [whitepaper edition](./reports/claude-mythos-whitepaper.zh-CN.md) for a more academic synthesis.
-4. Share the [English report](./reports/claude-mythos-preview-analysis.en.md) when an English-facing version is needed.
-5. Use the [social kit](./reports/claude-mythos-social-kit.zh-CN.md) for public distribution.
+3. Use the [Chinese whitepaper edition](./reports/claude-mythos-whitepaper.zh-CN.md) for a more academic synthesis.
+4. Share the [English deep report](./reports/claude-mythos-preview-analysis.en.md) when an English-facing version is needed.
+5. Use the [English whitepaper edition](./reports/claude-mythos-whitepaper.en.md) for English-language review and policy discussion.
 
 ## Visual Extracts
 
