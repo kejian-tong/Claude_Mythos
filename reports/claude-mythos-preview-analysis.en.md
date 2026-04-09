@@ -13,7 +13,7 @@ Source document:
 - Title: `Claude Mythos Preview System Card`
 - Date: `April 7, 2026`
 - Length: `244 pages`
-- Acquisition link: user-provided X post <https://x.com/bcherny/status/2041605852382351666>
+- Public circulation reference: [Ben Cherny on X](https://x.com/bcherny/status/2041605852382351666)
 
 This report follows four rules:
 

@@ -13,7 +13,7 @@
 - 标题：`Claude Mythos Preview System Card`
 - 发布日期：`2026-04-07`
 - 总页数：`244`
-- 获取链接：用户提供的 X 帖子 <https://x.com/bcherny/status/2041605852382351666>
+- 公开流传参考：[Ben Cherny 在 X 上的帖子](https://x.com/bcherny/status/2041605852382351666)
 
 本报告遵循四个原则：
 

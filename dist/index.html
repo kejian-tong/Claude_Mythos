@@ -12,6 +12,68 @@
     div.column{display: inline-block; vertical-align: top; width: 50%;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <style type="text/css">html {
@@ -153,63 +215,126 @@ white-space: pre-wrap;
 <ul>
 <li><a href="#claude-mythos-preview-analysis-pack">Claude Mythos Preview Analysis Pack</a>
 <ul>
-<li><a href="#reports">Reports</a></li>
-<li><a href="#what-is-included">What is included</a></li>
-<li><a href="#recommended-reading-order">Recommended reading order</a></li>
-<li><a href="#visual-references">Visual references</a></li>
-<li><a href="#source-note">Source note</a></li>
-<li><a href="#exported-editions">Exported editions</a></li>
+<li><a href="#quick-access">Quick Access</a></li>
+<li><a href="#repository-scope">Repository Scope</a></li>
+<li><a href="#suggested-reading-path">Suggested Reading Path</a></li>
+<li><a href="#visual-extracts">Visual Extracts</a></li>
+<li><a href="#document-provenance">Document Provenance</a></li>
+<li><a href="#regenerating-rendered-outputs">Regenerating Rendered Outputs</a></li>
 </ul></li>
 </ul>
 </nav>
 <h1 id="claude-mythos-preview-analysis-pack">Claude Mythos Preview Analysis Pack</h1>
-<p>This repository contains a bilingual analysis pack based on Anthropic&#39;s <code>Claude Mythos Preview System Card</code> dated April 7, 2026.</p>
-<h2 id="reports">Reports</h2>
+<p>A research-oriented repository for studying Anthropic&#39;s <code>Claude Mythos Preview System Card</code> dated <code>2026-04-07</code>. The project includes bilingual analysis reports, a Chinese whitepaper-style edition, short-form distribution material, extracted figure pages, and rendered HTML/PDF deliverables.</p>
+<h2 id="quick-access">Quick Access</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Edition</th>
+<th>Markdown</th>
+<th>HTML</th>
+<th>PDF</th>
+<th>Primary use</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Executive summary</td>
+<td><a href="./reports/claude-mythos-executive-summary.bilingual.md">bilingual</a></td>
+<td><a href="./dist/claude-mythos-executive-summary.bilingual.html">html</a></td>
+<td><a href="./dist/claude-mythos-executive-summary.bilingual.pdf">pdf</a></td>
+<td>Fast orientation</td>
+</tr>
+<tr class="even">
+<td>Deep report</td>
+<td><a href="./reports/claude-mythos-preview-analysis.zh-CN.md">zh-CN</a></td>
+<td><a href="./dist/claude-mythos-preview-analysis.zh-CN.html">html</a></td>
+<td><a href="./dist/claude-mythos-preview-analysis.zh-CN.pdf">pdf</a></td>
+<td>Full explanatory reading</td>
+</tr>
+<tr class="odd">
+<td>Deep report</td>
+<td><a href="./reports/claude-mythos-preview-analysis.en.md">English</a></td>
+<td><a href="./dist/claude-mythos-preview-analysis.en.html">html</a></td>
+<td><a href="./dist/claude-mythos-preview-analysis.en.pdf">pdf</a></td>
+<td>External sharing / English readership</td>
+</tr>
+<tr class="even">
+<td>Whitepaper edition</td>
+<td><a href="./reports/claude-mythos-whitepaper.zh-CN.md">zh-CN</a></td>
+<td><a href="./dist/claude-mythos-whitepaper.zh-CN.html">html</a></td>
+<td><a href="./dist/claude-mythos-whitepaper.zh-CN.pdf">pdf</a></td>
+<td>Research, review, and policy discussion</td>
+</tr>
+<tr class="odd">
+<td>Social distribution kit</td>
+<td><a href="./reports/claude-mythos-social-kit.zh-CN.md">zh-CN</a></td>
+<td><a href="./dist/claude-mythos-social-kit.zh-CN.html">html</a></td>
+<td><a href="./dist/claude-mythos-social-kit.zh-CN.pdf">pdf</a></td>
+<td>WeChat, X, public-account posting</td>
+</tr>
+</tbody>
+</table>
+<h2 id="repository-scope">Repository Scope</h2>
 <ul>
-<li><a href="./reports/claude-mythos-preview-analysis.zh-CN.md">Chinese deep report</a></li>
-<li><a href="./reports/claude-mythos-preview-analysis.en.md">English deep report</a></li>
-<li><a href="./reports/claude-mythos-executive-summary.bilingual.md">Bilingual executive summary</a></li>
-<li><a href="./reports/claude-mythos-whitepaper.zh-CN.md">Chinese whitepaper edition</a></li>
-<li><a href="./reports/claude-mythos-social-kit.zh-CN.md">Social distribution kit</a></li>
+<li>A section-by-section reading of the full system card</li>
+<li>A clear split between <code>evidence</code>, <code>interpretation</code>, and <code>speculation</code></li>
+<li>Plain-language explanations for frontier-AI safety terminology</li>
+<li>Many examples and analogies for difficult concepts</li>
+<li>A whitepaper-style Chinese synthesis for research and internal briefings</li>
+<li>Ready-to-post social summaries for different distribution channels</li>
+<li>Rendered HTML/PDF editions in <a href="./dist/"><code>dist</code></a></li>
 </ul>
-<h2 id="what-is-included">What is included</h2>
-<ul>
-<li>A rigorous section-by-section reading of the full system card</li>
-<li>A shorter bilingual executive summary for fast circulation</li>
-<li>A more academic Chinese whitepaper-style synthesis</li>
-<li>Ready-to-post summary material for WeChat Moments, X/Twitter, and public-account articles</li>
-<li>A split between <code>evidence</code>, <code>interpretation</code>, and <code>speculation</code></li>
-<li>Plain-English explanations of difficult safety and policy concepts</li>
-<li>Many concrete examples and analogies</li>
-<li>A skeptical-reader lens for each major part of the document</li>
-<li>A study guide for reading the system card from beginner to advanced level</li>
-<li>Embedded diagrams and selected figure pages extracted from the source PDF</li>
-<li>Exported HTML and PDF reading editions under <a href="./dist/"><code>dist</code></a></li>
-</ul>
-<h2 id="recommended-reading-order">Recommended reading order</h2>
+<h2 id="suggested-reading-path">Suggested Reading Path</h2>
 <ol type="1">
-<li>Start with the <a href="./reports/claude-mythos-executive-summary.bilingual.md">bilingual executive summary</a> if you want the fastest orientation.</li>
-<li>Read the <a href="./reports/claude-mythos-preview-analysis.zh-CN.md">Chinese deep report</a> for the full section-by-section explanation.</li>
-<li>Read the <a href="./reports/claude-mythos-whitepaper.zh-CN.md">Chinese whitepaper edition</a> for the more academic synthesis and critique.</li>
-<li>Use the <a href="./reports/claude-mythos-preview-analysis.en.md">English report</a> as the publishable companion version.</li>
-<li>Use the <a href="./reports/claude-mythos-social-kit.zh-CN.md">social distribution kit</a> if you want copy-ready content for public posting.</li>
+<li>Start with the <a href="./reports/claude-mythos-executive-summary.bilingual.md">executive summary</a>.</li>
+<li>Continue to the <a href="./reports/claude-mythos-preview-analysis.zh-CN.md">Chinese deep report</a>.</li>
+<li>Use the <a href="./reports/claude-mythos-whitepaper.zh-CN.md">whitepaper edition</a> for a more academic synthesis.</li>
+<li>Share the <a href="./reports/claude-mythos-preview-analysis.en.md">English report</a> when an English-facing version is needed.</li>
+<li>Use the <a href="./reports/claude-mythos-social-kit.zh-CN.md">social kit</a> for public distribution.</li>
 </ol>
-<h2 id="visual-references">Visual references</h2>
-<p>Selected official figure pages from the PDF are included under <a href="./reports/assets/"><code>reports/assets</code></a>:</p>
+<h2 id="visual-extracts">Visual Extracts</h2>
+<p>Selected figure pages extracted from the source PDF are stored in <a href="./reports/assets/"><code>reports/assets</code></a>:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Figure page</th>
+<th>Asset</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>p.42</td>
+<td><a href="./reports/assets/eci_capability_trajectory-042.png">eci_capability_trajectory-042.png</a></td>
+<td>ECI capability trajectory discussion</td>
+</tr>
+<tr class="even">
+<td>p.50</td>
+<td><a href="./reports/assets/firefox_exploit_results-050.png">firefox_exploit_results-050.png</a></td>
+<td>Firefox exploit task results</td>
+</tr>
+<tr class="odd">
+<td>p.78</td>
+<td><a href="./reports/assets/alignment_audit_scores-078.png">alignment_audit_scores-078.png</a></td>
+<td>Alignment audit comparison chart</td>
+</tr>
+<tr class="even">
+<td>p.150</td>
+<td><a href="./reports/assets/welfare_metrics-150.png">welfare_metrics-150.png</a></td>
+<td>Automated welfare-related audit metrics</td>
+</tr>
+</tbody>
+</table>
+<h2 id="document-provenance">Document Provenance</h2>
 <ul>
-<li><code>eci_capability_trajectory-042.png</code></li>
-<li><code>firefox_exploit_results-050.png</code></li>
-<li><code>alignment_audit_scores-078.png</code></li>
-<li><code>welfare_metrics-150.png</code></li>
+<li>Primary analyzed document: <code>Claude Mythos Preview System Card</code></li>
+<li>Document date shown inside the PDF: <code>2026-04-07</code></li>
+<li>Public circulation reference: <a href="https://x.com/bcherny/status/2041605852382351666">Ben Cherny on X</a></li>
+<li>Archival note: the original PDF and extracted raw text were used locally for analysis and are intentionally not committed to this repository</li>
 </ul>
-<h2 id="source-note">Source note</h2>
-<ul>
-<li>Source document: <code>Claude Mythos Preview System Card</code></li>
-<li>Document date shown inside PDF: <code>2026-04-07</code></li>
-<li>User-provided acquisition link: <a href="https://x.com/bcherny/status/2041605852382351666">https://x.com/bcherny/status/2041605852382351666</a></li>
-<li>Provenance note: this repository analyzes the PDF contents themselves. The PDF file and extracted text were used locally and are not committed to this repository.</li>
-</ul>
-<h2 id="exported-editions">Exported editions</h2>
-<p>Rendered HTML and PDF outputs are generated under <a href="./dist/"><code>dist</code></a>. They are produced from the Markdown sources with <code>pandoc</code> and headless Chrome so the repository includes both editable source files and shareable reading versions.</p>
+<h2 id="regenerating-rendered-outputs">Regenerating Rendered Outputs</h2>
+<p>Rendered outputs are generated with <code>pandoc</code> and headless Chrome.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">./scripts/export_reports.sh</span></span></code></pre></div>
 </body>
 </html>

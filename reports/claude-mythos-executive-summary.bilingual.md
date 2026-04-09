@@ -4,7 +4,7 @@
 
 - Source document: `Claude Mythos Preview System Card`
 - Document date in PDF: `2026-04-07`
-- User-provided acquisition link: <https://x.com/bcherny/status/2041605852382351666>
+- Public circulation reference: [Ben Cherny on X](https://x.com/bcherny/status/2041605852382351666)
 - Scope note: this summary is based on the PDF contents and on the longer reports in this repository.
 
 ## 中文版

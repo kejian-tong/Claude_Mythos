@@ -8,7 +8,7 @@
 
 - 原始文档标题：`Claude Mythos Preview System Card`
 - PDF 内部日期：`2026-04-07`
-- PDF 获取链接：用户提供的 X 帖子链接 <https://x.com/bcherny/status/2041605852382351666>
+- 公开流传参考：[Ben Cherny 在 X 上的帖子](https://x.com/bcherny/status/2041605852382351666)
 - 说明：本文分析的是 PDF 文本内容本身，不对该 X 帖子之外的分发链路做额外真实性认证
 
 ## 2. 研究问题

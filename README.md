@@ -1,53 +1,57 @@
 # Claude Mythos Preview Analysis Pack
 
-This repository contains a bilingual analysis pack based on Anthropic's `Claude Mythos Preview System Card` dated April 7, 2026.
+A research-oriented repository for studying Anthropic's `Claude Mythos Preview System Card` dated `2026-04-07`. The project includes bilingual analysis reports, a Chinese whitepaper-style edition, short-form distribution material, extracted figure pages, and rendered HTML/PDF deliverables.
 
-## Reports
+## Quick Access
 
-- [Chinese deep report](./reports/claude-mythos-preview-analysis.zh-CN.md)
-- [English deep report](./reports/claude-mythos-preview-analysis.en.md)
-- [Bilingual executive summary](./reports/claude-mythos-executive-summary.bilingual.md)
-- [Chinese whitepaper edition](./reports/claude-mythos-whitepaper.zh-CN.md)
-- [Social distribution kit](./reports/claude-mythos-social-kit.zh-CN.md)
+| Edition | Markdown | HTML | PDF | Primary use |
+| --- | --- | --- | --- | --- |
+| Executive summary | [bilingual](./reports/claude-mythos-executive-summary.bilingual.md) | [html](./dist/claude-mythos-executive-summary.bilingual.html) | [pdf](./dist/claude-mythos-executive-summary.bilingual.pdf) | Fast orientation |
+| Deep report | [zh-CN](./reports/claude-mythos-preview-analysis.zh-CN.md) | [html](./dist/claude-mythos-preview-analysis.zh-CN.html) | [pdf](./dist/claude-mythos-preview-analysis.zh-CN.pdf) | Full explanatory reading |
+| Deep report | [English](./reports/claude-mythos-preview-analysis.en.md) | [html](./dist/claude-mythos-preview-analysis.en.html) | [pdf](./dist/claude-mythos-preview-analysis.en.pdf) | External sharing / English readership |
+| Whitepaper edition | [zh-CN](./reports/claude-mythos-whitepaper.zh-CN.md) | [html](./dist/claude-mythos-whitepaper.zh-CN.html) | [pdf](./dist/claude-mythos-whitepaper.zh-CN.pdf) | Research, review, and policy discussion |
+| Social distribution kit | [zh-CN](./reports/claude-mythos-social-kit.zh-CN.md) | [html](./dist/claude-mythos-social-kit.zh-CN.html) | [pdf](./dist/claude-mythos-social-kit.zh-CN.pdf) | WeChat, X, public-account posting |
 
-## What is included
+## Repository Scope
 
-- A rigorous section-by-section reading of the full system card
-- A shorter bilingual executive summary for fast circulation
-- A more academic Chinese whitepaper-style synthesis
-- Ready-to-post summary material for WeChat Moments, X/Twitter, and public-account articles
-- A split between `evidence`, `interpretation`, and `speculation`
-- Plain-English explanations of difficult safety and policy concepts
-- Many concrete examples and analogies
-- A skeptical-reader lens for each major part of the document
-- A study guide for reading the system card from beginner to advanced level
-- Embedded diagrams and selected figure pages extracted from the source PDF
-- Exported HTML and PDF reading editions under [`dist`](./dist/)
+- A section-by-section reading of the full system card
+- A clear split between `evidence`, `interpretation`, and `speculation`
+- Plain-language explanations for frontier-AI safety terminology
+- Many examples and analogies for difficult concepts
+- A whitepaper-style Chinese synthesis for research and internal briefings
+- Ready-to-post social summaries for different distribution channels
+- Rendered HTML/PDF editions in [`dist`](./dist/)
 
-## Recommended reading order
+## Suggested Reading Path
 
-1. Start with the [bilingual executive summary](./reports/claude-mythos-executive-summary.bilingual.md) if you want the fastest orientation.
-2. Read the [Chinese deep report](./reports/claude-mythos-preview-analysis.zh-CN.md) for the full section-by-section explanation.
-3. Read the [Chinese whitepaper edition](./reports/claude-mythos-whitepaper.zh-CN.md) for the more academic synthesis and critique.
-4. Use the [English report](./reports/claude-mythos-preview-analysis.en.md) as the publishable companion version.
-5. Use the [social distribution kit](./reports/claude-mythos-social-kit.zh-CN.md) if you want copy-ready content for public posting.
+1. Start with the [executive summary](./reports/claude-mythos-executive-summary.bilingual.md).
+2. Continue to the [Chinese deep report](./reports/claude-mythos-preview-analysis.zh-CN.md).
+3. Use the [whitepaper edition](./reports/claude-mythos-whitepaper.zh-CN.md) for a more academic synthesis.
+4. Share the [English report](./reports/claude-mythos-preview-analysis.en.md) when an English-facing version is needed.
+5. Use the [social kit](./reports/claude-mythos-social-kit.zh-CN.md) for public distribution.
 
-## Visual references
+## Visual Extracts
 
-Selected official figure pages from the PDF are included under [`reports/assets`](./reports/assets/):
+Selected figure pages extracted from the source PDF are stored in [`reports/assets`](./reports/assets/):
 
-- `eci_capability_trajectory-042.png`
-- `firefox_exploit_results-050.png`
-- `alignment_audit_scores-078.png`
-- `welfare_metrics-150.png`
+| Figure page | Asset | Notes |
+| --- | --- | --- |
+| p.42 | [eci_capability_trajectory-042.png](./reports/assets/eci_capability_trajectory-042.png) | ECI capability trajectory discussion |
+| p.50 | [firefox_exploit_results-050.png](./reports/assets/firefox_exploit_results-050.png) | Firefox exploit task results |
+| p.78 | [alignment_audit_scores-078.png](./reports/assets/alignment_audit_scores-078.png) | Alignment audit comparison chart |
+| p.150 | [welfare_metrics-150.png](./reports/assets/welfare_metrics-150.png) | Automated welfare-related audit metrics |
 
-## Source note
+## Document Provenance
 
-- Source document: `Claude Mythos Preview System Card`
-- Document date shown inside PDF: `2026-04-07`
-- User-provided acquisition link: <https://x.com/bcherny/status/2041605852382351666>
-- Provenance note: this repository analyzes the PDF contents themselves. The PDF file and extracted text were used locally and are not committed to this repository.
+- Primary analyzed document: `Claude Mythos Preview System Card`
+- Document date shown inside the PDF: `2026-04-07`
+- Public circulation reference: [Ben Cherny on X](https://x.com/bcherny/status/2041605852382351666)
+- Archival note: the original PDF and extracted raw text were used locally for analysis and are intentionally not committed to this repository
 
-## Exported editions
+## Regenerating Rendered Outputs
 
-Rendered HTML and PDF outputs are generated under [`dist`](./dist/). They are produced from the Markdown sources with `pandoc` and headless Chrome so the repository includes both editable source files and shareable reading versions.
+Rendered outputs are generated with `pandoc` and headless Chrome.
+
+```bash
+./scripts/export_reports.sh
+```
