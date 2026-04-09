@@ -13,6 +13,7 @@ Source document:
 - Title: `Claude Mythos Preview System Card`
 - Date: `April 7, 2026`
 - Length: `244 pages`
+- Acquisition link: user-provided X post <https://x.com/bcherny/status/2041605852382351666>
 
 This report follows four rules:
 
@@ -1370,4 +1371,3 @@ That broader capability leap is exactly why Anthropic’s safety judgments becom
 The most accurate one-sentence reading of the system card is:
 
 `Claude Mythos Preview is not a model Anthropic thinks is “out of control,” but it is a model strong enough, useful enough, dual-use enough, and autonomy-enabling enough that Anthropic’s existing governance methods are starting to operate much closer to their comfort limits than before.`
-
