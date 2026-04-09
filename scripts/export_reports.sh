@@ -4,7 +4,6 @@ set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 DIST="$ROOT/dist"
-CSS="$ROOT/reports/assets/report.css"
 CHROME="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
 mkdir -p "$DIST"
@@ -23,8 +22,10 @@ render_one() {
   local src="$1"
   local base="$2"
   local title="$3"
-  local html="$DIST/$base.html"
   local pdf="$DIST/$base.pdf"
+  local html
+
+  html="$(mktemp "/tmp/${base}.XXXXXX.html")"
 
   pandoc \
     --from=gfm \
@@ -33,7 +34,6 @@ render_one() {
     --toc \
     --self-contained \
     --resource-path="$ROOT/reports:$ROOT" \
-    --css="$CSS" \
     --metadata=title:"$title" \
     -o "$html" \
     "$src"
@@ -47,6 +47,8 @@ render_one() {
     --print-to-pdf-no-header \
     "--print-to-pdf=$pdf" \
     "file://$html" >/dev/null 2>&1
+
+  rm -f "$html"
 }
 
 render_one "$ROOT/README.md" "index" "Claude Mythos Preview Analysis Pack"
@@ -58,4 +60,4 @@ render_one "$ROOT/reports/claude-mythos-whitepaper.en.md" "claude-mythos-whitepa
 render_one "$ROOT/reports/claude-mythos-social-kit.zh-CN.md" "claude-mythos-social-kit.zh-CN" "Claude Mythos Social Distribution Kit"
 
 echo "Export complete:"
-printf '  - %s\n' "$DIST"/*.html "$DIST"/*.pdf
+printf '  - %s\n' "$DIST"/*.pdf
