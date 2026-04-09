@@ -19,26 +19,8 @@ A research-oriented repository for studying Anthropic's `Claude Mythos Preview S
 - Plain-language explanations for frontier-AI safety terminology
 - Many examples and analogies for difficult concepts
 - Whitepaper-style syntheses for research and internal briefings
+- Selected extracted figure pages in [`reports/assets`](./reports/assets/)
 - Rendered PDF editions in [`dist`](./dist/)
-
-## Suggested Reading Path
-
-1. Start with the [executive summary](./reports/claude-mythos-executive-summary.bilingual.md).
-2. Continue to the [Chinese deep report](./reports/claude-mythos-preview-analysis.zh-CN.md).
-3. Use the [Chinese whitepaper edition](./reports/claude-mythos-whitepaper.zh-CN.md) for a more academic synthesis.
-4. Share the [English deep report](./reports/claude-mythos-preview-analysis.en.md) when an English-facing version is needed.
-5. Use the [English whitepaper edition](./reports/claude-mythos-whitepaper.en.md) for English-language review and policy discussion.
-
-## Visual Extracts
-
-Selected figure pages extracted from the source PDF are stored in [`reports/assets`](./reports/assets/):
-
-| Figure page | Asset | Notes |
-| --- | --- | --- |
-| p.42 | [eci_capability_trajectory-042.png](./reports/assets/eci_capability_trajectory-042.png) | ECI capability trajectory discussion |
-| p.50 | [firefox_exploit_results-050.png](./reports/assets/firefox_exploit_results-050.png) | Firefox exploit task results |
-| p.78 | [alignment_audit_scores-078.png](./reports/assets/alignment_audit_scores-078.png) | Alignment audit comparison chart |
-| p.150 | [welfare_metrics-150.png](./reports/assets/welfare_metrics-150.png) | Automated welfare-related audit metrics |
 
 ## Document Provenance
 
